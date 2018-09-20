@@ -35,7 +35,7 @@ public class ConvenientBanner<T> extends RelativeLayout {
     private int[] page_indicatorId;
     private ArrayList<ImageView> mPointViews = new ArrayList<ImageView>();
     private CBPageAdapter pageAdapter;
-    private CBLoopViewPager viewPager;
+    public CBLoopViewPager viewPager;
     private ViewGroup loPageTurningPoint;
     private long autoTurningTime = -1;
     private boolean turning;
